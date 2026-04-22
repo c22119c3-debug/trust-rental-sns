@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply transition-colors duration-200; }
+html.dark { color-scheme: dark; }
+html.light { color-scheme: light; }
